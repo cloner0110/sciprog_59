@@ -41,7 +41,7 @@ int main(int argc, char **argv){
     a = degtorad(0);
     b = degtorad(60);
     //- Initialize values for diff and tol  
-    n=11;
+    n=5;
     diff = 1.0; 
     //- The interval [a,b] is split up into n subintervals of width h 
     h = (b-a)/n;
