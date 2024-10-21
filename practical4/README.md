@@ -1,4 +1,4 @@
-# Paractical 3
+# Paractical 4
 Compile .C files located in src/ folder using: 
 
 `gcc trapz.C -o trapz -lm `
