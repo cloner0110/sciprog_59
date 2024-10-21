@@ -1,7 +1,7 @@
 # Paractical 3
-Compile .C files located in src/ folder using: 
+Compile .c files located in src/ folder using: 
 
-`gcc trapz.C -o trapz -lm `
+`gcc radi_trapz.c -o trapz -lm `
  
 
 The output files are exectuble like:
