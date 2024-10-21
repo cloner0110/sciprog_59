@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-//- function for the conversion from degrees to radians when needed. 
 
-double degtorad(double degang) {
-   return( (M_PI * degang)/180.0 );
-}
 //- function definition to be integrated
 double func(double x){
     return (tan(x));
@@ -38,8 +34,8 @@ int main(int argc, char **argv){
     double a, b, h, area;
     double diff, tol = 1e-06;
     //- Enter the values for a, b 
-    a = degtorad(0);
-    b = degtorad(60);
+    a = 0;
+    b = M_PI/3;
     //- Initialize values for diff and tol  
     n=11;
     diff = 1.0; 
