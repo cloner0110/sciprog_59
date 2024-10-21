@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <math.h>
 //- function for the conversion from degrees to radians when needed. 
-
 double degtorad(double degang) {
    return( (M_PI * degang)/180.0 );
 }
@@ -41,7 +40,7 @@ int main(int argc, char **argv){
     a = degtorad(0);
     b = degtorad(60);
     //- Initialize values for diff and tol  
-    n=5;
+    n=12;
     diff = 1.0; 
     //- The interval [a,b] is split up into n subintervals of width h 
     h = (b-a)/n;
@@ -64,6 +63,9 @@ int main(int argc, char **argv){
     diff=fabs(area - log(2.0));
     printf("Value of n = %d, area based on trapz = %12.10f, actual results ,ln(2) = %12.10f , diff is = %12.10f \n" ,n, area, log(2.0), diff);
 
+    for (i=0; i<n; i++){
+    printf("value of tan for x= %12.10f is = %12.10f \n ",x[i],fx[i]);
+    }
 
     //- Free the memory space for x and fx
     free(x);
