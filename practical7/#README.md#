@@ -1,0 +1,11 @@
+# Paractical 7
+Complie the code located in `src/` using:
+
+` gcc e.c -o e_estimation -lm `
+
+and for the pointers filling and printing, similarly:
+
+` gcc pointers.c -o pointers `
+
+
+
