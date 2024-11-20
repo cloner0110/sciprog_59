@@ -1,5 +1,5 @@
 # Paractical 6
-Complie the code using Makefile:
+**Complie the code using Makefile**
 
 To compile and generate exectuable:
 
