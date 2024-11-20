@@ -1,7 +1,7 @@
 # Paractical 5
 Compile .C files located in src/ folder using: 
 
-`gcc fibo.c -o trapz -lm `
+`gcc fibo.c -o fibo -lm `
 
 and similarly for Arctanh:
 
